@@ -1,0 +1,11 @@
+GET http://localhost:3000/places?text=av padre lourenço da costa, 3415, Itajubá, MG
+
+###
+GET http://localhost:3000/places?text=av doutor luiz renno, 61, Itajubá, MG
+
+### 
+@originId=ElpBdi4gUGFkcmUgTG91cmVuw6dvIGRhIENvc3RhLVJvZG92aWEgQnItNDU5LCAzNDE1IC0gVmFyZ2luaGEsIEl0YWp1YsOhIC0gTUcsIDM3NTAxLCBCcmFzaWwiMRIvChQKEglLk_GpH2PLlBEGLEsjWE_cGhDXGioUChIJWfwY-CBjy5QRjuZnlYWKvKI
+@destinationId=ChIJWwAH-a98y5QR1Ft6JaVSJ_E
+
+###
+GET http://localhost:3000/directions?originId={{ originId }}&destinationId={{ destinationId }}
